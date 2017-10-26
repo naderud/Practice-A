@@ -1,0 +1,44 @@
+header {
+  background-color: #aa3;
+  /*height: 200px;*/
+}
+main {
+  background-color: #090;
+}
+footer {
+  background-color: #009;
+
+}
+nav {
+  background-color: teal;
+
+}
+nav ul{
+  width: 60%;
+  margin-left: auto;
+}
+nav a {
+  background-color: tan;
+  display: block;
+}
+nav a:hover {
+  background-color: yellow;
+}
+nav li {
+  float: left;
+  text-align: center;
+  width: 20%;
+}
+
+/*text formatting*/
+body {
+  color: white;
+}
+p{
+  padding: 8px;
+
+}
+header h1 {
+  color: blue;
+  font-size: 45px;
+}
