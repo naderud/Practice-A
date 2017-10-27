@@ -1,6 +1,7 @@
 header {
   background-color: #aa3;
-  /*height: 200px;*/
+  position: relative;
+  height: 200px;
 }
 main {
   background-color: #090;
@@ -11,15 +12,17 @@ footer {
 }
 nav {
   background-color: teal;
+  height: 20px;
 
 }
 nav ul{
   width: 60%;
-  margin-left: auto;
+  margin: auto;
 }
 nav a {
   background-color: tan;
   display: block;
+  height: 20px;
 }
 nav a:hover {
   background-color: yellow;
@@ -27,7 +30,7 @@ nav a:hover {
 nav li {
   float: left;
   text-align: center;
-  width: 20%;
+  width: 25%;
 }
 
 /*text formatting*/
@@ -41,4 +44,11 @@ p{
 header h1 {
   color: blue;
   font-size: 45px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+
 }
